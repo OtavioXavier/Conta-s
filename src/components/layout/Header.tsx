@@ -1,6 +1,7 @@
 import { Pressable, StyleSheet, Text, View } from "react-native";
 import Logo from "@/src/components/layout/Logo";
 import { Plus } from "lucide-react-native";
+import { theme } from '@/src/theme';
 
 interface Props {
 	title: string;
@@ -13,7 +14,7 @@ export default function Header({ title, onPressPlus }: Props) {
 			<Logo />
 			<Text style={styles.title}>{title}</Text>
 			<Pressable onPress={onPressPlus}>
-				<Plus color={"#FCFCFC"}/>
+				<Plus color={theme.colors.white}/>
 			</Pressable>
 		</View>
 	);
@@ -25,11 +26,12 @@ const styles = StyleSheet.create({
     justifyContent: 'space-around',
     gap: 36,
     paddingTop: 16,
-    alignItems: 'center'
+    alignItems: 'center',
+		marginBottom: 44
   },
 	title: {
-		color: "#FCFCFC",
-		fontFamily: "Poppins",
+		color: theme.colors.white,
+		fontFamily: theme.fontFamily.regular,
 		fontWeight: "600",
 		fontSize: 20,
 	},

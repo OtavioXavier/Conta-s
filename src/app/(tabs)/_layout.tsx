@@ -1,3 +1,4 @@
+import { theme } from '@/src/theme';
 import { Tabs } from "expo-router";
 import { ArrowRightLeft, ChartPie, Wallet } from "lucide-react-native";
 
@@ -6,13 +7,11 @@ export default function TabsLayout() {
 		<Tabs
 			screenOptions={{
 				headerShown: false,
+				tabBarShowLabel: false,
 				tabBarStyle: {
-					backgroundColor: "#111418",
-					borderTopColor: '#111418'
-				},
-				tabBarLabelStyle: {
-					display: "none",
-				},
+					backgroundColor: theme.colors.black,
+					borderTopColor: theme.colors.black
+				}
 			}}
 		>
 			<Tabs.Screen
@@ -21,7 +20,7 @@ export default function TabsLayout() {
 					tabBarIcon: ({ focused, size }) => {
 						return (
 							<Wallet
-								color={"#BAFFD8"}
+								color={theme.colors.main}
 								opacity={focused ? "100%" : "35%"}
 								size={size}
 							/>
@@ -35,7 +34,7 @@ export default function TabsLayout() {
 					tabBarIcon: ({ focused, size }) => {
 						return (
 							<ArrowRightLeft
-								color={"#BAFFD8"}
+								color={theme.colors.main}
 								opacity={focused ? "100%" : "35%"}
 								size={size}
 							/>
@@ -49,7 +48,7 @@ export default function TabsLayout() {
 					tabBarIcon: ({ focused, size }) => {
 						return (
 							<ChartPie
-								color={"#BAFFD8"}
+								color={theme.colors.main}
 								opacity={focused ? "100%" : "35%"}
 								size={size}
 							/>
