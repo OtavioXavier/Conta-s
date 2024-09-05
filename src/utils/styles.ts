@@ -3,7 +3,8 @@ import { StyleSheet } from 'react-native';
 
 export const styles = StyleSheet.create({
   container: {
-   margin: 16,
+   flex: 1,
+   padding: 16,
    gap: 8,
    backgroundColor: theme.colors.black,
   },
