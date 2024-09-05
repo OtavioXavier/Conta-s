@@ -1,7 +1,7 @@
 import { Link } from "expo-router";
 import { Text } from "react-native";
 import { SafeAreaView } from 'react-native-safe-area-context';
-import { styles } from '@/src/utils/style';
+import { styles } from '@/utils/style';
 
 export default function IndexScreen() {
 	return (

@@ -1,7 +1,5 @@
-import { Slot, Stack, usePathname } from "expo-router";
-import { View } from "react-native";
+import { Slot } from "expo-router";
 import * as SplashScreen from "expo-splash-screen";
-import { useEffect } from "react";
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import { StatusBar } from 'expo-status-bar';
 
