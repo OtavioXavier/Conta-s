@@ -1,5 +1,5 @@
 import type { PressableProps } from 'react-native';
-import { Pressable, View } from 'react-native';
+import { Pressable } from 'react-native';
 import type { DotProps } from './dot';
 import { styles } from './styles';
 

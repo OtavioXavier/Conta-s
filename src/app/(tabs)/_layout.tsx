@@ -1,4 +1,4 @@
-import { theme } from '@/src/theme';
+import { theme } from '@/theme';
 import { Tabs } from "expo-router";
 import { ArrowRightLeft, ChartPie, Wallet } from "lucide-react-native";
 

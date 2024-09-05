@@ -12,14 +12,14 @@ export default function Card({ selected, card, ...rest }: PressableProps & CardP
         <View style={styles.header}>
           <Image
             style={styles.flag}
-            source={require("@/src/assets/images/MasterCard.svg")}
+            source={require("@/assets/images/MasterCard.svg")}
           />
           <Text style={styles.lastNumbers}>. . . . {lastNumbers}</Text>
         </View>
         <View style={styles.containerLogo}>
           <Image
             style={styles.logo}
-            source={require("@/src/assets/images/Logo.svg")}
+            source={require("@/assets/images/Logo.svg")}
           />
         </View>
         <View style={styles.footer}>
