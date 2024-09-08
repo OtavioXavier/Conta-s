@@ -9,8 +9,8 @@ export default function TabsLayout() {
 				headerShown: false,
 				tabBarShowLabel: false,
 				tabBarStyle: {
-					backgroundColor: theme.colors.black,
-					borderTopColor: theme.colors.black
+					backgroundColor: theme.colors.black[100],
+					borderTopColor: theme.colors.black[100]
 				}
 			}}
 		>
