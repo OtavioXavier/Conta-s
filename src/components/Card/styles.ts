@@ -6,7 +6,7 @@ export const styles = StyleSheet.create({
 		width: 300,
 		height: 200,
 		borderRadius: 16,
-		shadowColor: theme.colors.black,
+		shadowColor: theme.colors.black[100],
 		shadowOffset: {
 			width: 0,
 			height: 18,

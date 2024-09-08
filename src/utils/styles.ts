@@ -6,7 +6,7 @@ export const styles = StyleSheet.create({
    flex: 1,
    padding: 16,
    gap: 8,
-   backgroundColor: theme.colors.black,
+   backgroundColor: theme.colors.black[100],
   },
   text: {
    color: theme.colors.white,
