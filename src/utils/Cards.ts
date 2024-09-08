@@ -23,4 +23,40 @@ export const CARDS: Card[] = [
 		flag: "@/src/assets/images/MasterCard.svg",
 		color: "#34495E",
 	},
+	
+	{
+		id: 3,
+		name: "John Smith",
+		validate: "11/2024",
+		lastNumbers: "9876",
+		flag: "@/src/assets/images/MasterCard.svg",
+		color: "#34495E",
+	},
+	
+	{
+		id: 4,
+		name: "John Smith",
+		validate: "11/2024",
+		lastNumbers: "9876",
+		flag: "@/src/assets/images/MasterCard.svg",
+		color: "#34495E",
+	},
+	
+	{
+		id: 5,
+		name: "John Smith",
+		validate: "11/2024",
+		lastNumbers: "9876",
+		flag: "@/src/assets/images/MasterCard.svg",
+		color: "#34495E",
+	},
+	
+	{
+		id: 6,
+		name: "John Smith",
+		validate: "11/2024",
+		lastNumbers: "9876",
+		flag: "@/src/assets/images/MasterCard.svg",
+		color: "#34495E",
+	},
 ];
